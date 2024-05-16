@@ -45,10 +45,10 @@ class ContainerWidgetEX1 extends StatelessWidget {
     return Scaffold(
       body: Container(
         color: Colors.blue,
-        child: Center(
+        child: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text('work hard'),
               Text('work hard'),
               Text('work hard'),
@@ -68,9 +68,9 @@ class ContainerWidgetEX2 extends StatelessWidget {
       body: Center(
         child: Container(
           color: Colors.blue,
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text('work hard'),
               Text('work hard'),
               Text('work hard'),

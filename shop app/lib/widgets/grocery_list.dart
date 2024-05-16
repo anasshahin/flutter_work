@@ -42,11 +42,9 @@ class _GroceryListState extends State<GroceryList> {
       });
       return;
     }
-
     log(res.body);
     final Map<String, dynamic> loadedData = json.decode(res.body);
     final List<GroceryItem> loadedItems = [];
-
     for (var items in loadedData.entries) {
       final Category category = categories.entries
           .firstWhere(
